@@ -19,9 +19,9 @@ exports.Authorize=async(req,res,next)=>{
 
     }
 
-    exports.isadmin=async(req,res,next)=>{
-        req.body.user.role=="admin"? next():res.status(401).send({msg:"not an admin"})
-    }
+//     exports.isadmin=async(req,res,next)=>{
+//         req.body.user.role=="admin"? next():res.status(401).send({msg:"not an admin"})
+//     }
 
 
 
