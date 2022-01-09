@@ -1,5 +1,5 @@
 const { ObjectId } = require('mongodb');
-const mongo=require('../shared/connect');
+const mongo=require('../shared/connection');
 
 
 module.exports.createuser=async (req,res,next)=>{
